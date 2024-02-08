@@ -1,5 +1,5 @@
 import _ from "lodash";
-export default (co) => {
+export default (coll) => {
     console.log("Hello, Hexlet!");
-    return _.last(co);
+    return _.last(coll);
 };
